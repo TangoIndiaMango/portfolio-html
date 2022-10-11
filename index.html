@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/favicon_io/site.webmanifest">
+
+    <!--Google Font-->
+
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;900&family=Source+Sans+Pro:wght@300;400;600;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class = "logo">
+            <img src="img/timii.jpg" alt="My Picture">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>  <!--sublist-->
+        </nav>
+    </header>
+    <!--Introduction-->
+    <section class="intro" id="home">
+        <h1 class="section__title, section__title--intro"> Hi, I am <strong>Timilehin Aliyu</strong> </h1>
+        <p class="section__subtitle section__subtitle--intro" style="font-size: 13px; font-weight: bold;">A Software Developer, ready to initiate.
+        </p>
+        <img src="img/timi.jpg" alt="A picture of Timmy" class="intro__img">
+    </section>
+
+
+    <!--My services-->
+
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services"> What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3> Design + Modelling</h3>
+                <p>I'm well-versed in creating easy-to-use, responsive, accessible, user-friendly websites and web applications, also experienced in the development of back-end services and APIs.</p>
+            </div> <!--close-->
+
+            <div class="service">
+                <h3>SKILLS</h3>
+                <ul style="list-style-type: None; padding: 2px;">
+                    <li>HTML </li>
+                    <li>CSS </li>
+                    <li>JAVASCRIPT </li>
+                    <li>PYTHON </li>
+                    <li>FLASK </li>
+                    <li>PostgreSQL </li>
+                    <li>Docker </li>    
+                </ul>
+            </div> <!--close-->
+            <!-- <div class="service"></div>
+                <ul style="list-style-type: None;">
+                    <li>HTML </li>
+                    <li>CSS </li>
+                    <li>JAVASCRIPT </li>
+                    <li>PYTHON </li>
+                    <li>FLASK </li>
+                    <li>PostgreSQL </li>
+                    <li>Docker </li>    
+                </ul>
+            </div> close -->
+
+            <div class="service">
+                <h3>Development + Management</h3>
+                <p>Web Api adds amazing functionality to Web Applications, also identifying and managing the question of Who are you? and what can you do? on our web Apps matters.</p>
+            </div> <!--close-->
+        </div> <!--/ services-->
+
+        <a href="#work" class="btn" >My Work</a>
+    </section>
+
+
+    <!---About me-->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about"> Who am I</h2>
+        <p class="section__subtitle section__subtitle--about"> Web-Dev (Backend)</p>
+        <p>I'm a meteorologist turned backend web developer, looking for personal and professional growth. I recently completed a program with Udacity FullStack Nano-degree which has helped me to develop my skills better in web development and provide proficient solutions to software problems.</p>
+        <div class="about-me__body">
+            <h3>Success</h3>
+            <p>I've been working around computers for the last four years, and initially I was using her for numerical analysis (weather prediction), last year I developed interest in the internet and web development community, which i've been able to successfully work on mini and private projects. I see myself ready to inspire, enquire, and also to handle whatever task has been offered with the optimum solution.
+            </p>
+            <h3> Strength</h3>
+            <p>
+                I'm curious to understand and experiment with the great usage of computers. How applications work, what's the idea behind certain app innovations etc. This has been a driving force in my continuous enquire for knowledge to provide solutions with the appropriate tools (programs) and meet the audience needs. I'm warm and always open to acquiring great achievements with like minds.
+            </p>
+            <h3> Experience</h3>
+            <p>Within the last few years I've expanded my knowledge from basic HTML, CSS and Javascript which I've used to handle mini and self-developing projects, to python and frameworks to develop real data applications, i.e. Apis and fully functioning web applications. I've been productive with a team, and also provided ideas and contributions to projects at hand.</p>
+        </div>
+
+        <img src="img/twinkle.jpg" alt="A picture of Timmy" class="about-me__img">
+    </section>
+
+
+    <!--My Work-->
+
+
+    <section class="my-work" id="work">
+        <h2 class="section__title">My Work</h2>
+        <p class="section_subtitle">Click on the Image to view my Projects</p>
+
+        <div class="portfolio">
+            <!--portfolio item 0-->
+            <a href="portfolio-fyyur.html"        class="portfolio__item">
+                <img src="img/fyurr-edit.png" alt="" class="portfolio__img">
+            </a>
+
+            <!--portfolio item 1-->
+            <a href="portfolio-fyyur.html" class="portfolio__item">
+                <img src="img/django_flask.png" alt="" class="portfolio__img">
+            </a>
+
+            <!--portfolio item 2-->
+            <a href="porfolio-authentication.html" class="portfolio__item">
+                <img src="img/auth01.png" alt="" class="portfolio__img">
+            </a>
+
+            <!--portfolio item 3-->
+            <a href="portfolio-lannister.html" class="portfolio__item">
+                <img src="img/ready2.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <a href="portfolio-quiz.html" class="portfolio__item">
+                <img src="img/quiz2.jpg" alt="" class="portfolio__img">
+            </a>
+            <a href="porfolio-authentication.html" class="portfolio__item">
+                <img src="img/auth0.jpg" alt="" class="portfolio__img">
+            </a>
+            
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+        <!--email-->
+        <a href = "mailto:aliyutimileyin2340@gmail.com?cc=aliyutimileyin2340@gmail.com" class = footer-link>
+                aliyutimileyin2340@gmail.com
+        </a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/timilehin-aliyu-7b2515240/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://Facebook.com">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/TangoIndiaMango">
+                <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="Twitter.com">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

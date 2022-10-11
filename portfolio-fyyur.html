@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fyyur Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/favicon_io/site.webmanifest">
+
+    <!--Google Font-->
+
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;900&family=Source+Sans+Pro:wght@300;400;600;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class = "logo">
+            <img src="img/timii.jpg" alt="My Picture">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+            </ul>  <!--sublist-->
+        </nav>
+    </header>
+    <!--Introduction-->
+    <section class="intro" id="home">
+        <h1 class="section__title, section__title--intro"> The Musical  <strong>Fyyur App</strong> </h1>
+        <p class="section__subtitle section__subtitle--intro" style="font-size:14px; left: 5.5em; font-weight: bold;" >  A musical venue and artist booking site</p>
+
+        <img src="img/fyurr_front.jpg" alt="A picture of Timmy" class="intro__img">
+    </section>
+
+
+   
+
+
+
+    <!--My Portfolio-->
+    <div class="portfolio-item-individual">
+        <p>Fyyur is a musical venue and artist booking site that facilitates the discovery and bookings of shows between local performing artists and venues. This site lets you list new artists and venues, discover them, and list shows with artists as a venue owner.</p>
+        <img src="img/fyyur-app.png" alt="flask">
+        <a href="https://github.com/TangoIndiaMango/ProjectFyyur"  class="portfolio__item" style="text-decoration: underline; color:black; background-color: #fff;"> Github Link</a>
+        <p>With Python and a flask framework. I was able to build out the data models to power the API and the endpoints by connecting to a PostgreSQL database for storing, querying and creating Information about Artist and Venues on Fyyur</p>
+        <p>The app has the following functions
+            <ul>
+                <li> creating new venues, artists, and creating new shows.</li>
+                <li> searching for venues and artists. </li>
+                <li> learning more about a specific artist or venue. </li>
+            </ul>
+        </p>
+
+    </div>
+
+    <!--Footer-->
+    <footer class="footer">
+        <!--email-->
+        <a href="aliyutimileyin2340@gmail.com" class = footer-link>
+            Aliyu Timileyin
+            </a>
+
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="linkedin.com">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="Facebook.com">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="GitHub.com">
+                <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="Twitter.com">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Alef
+- Font Author: Copyright (c) 2012 by Hagilda. All rights reserved.
+- Font Source: http://fonts.gstatic.com/s/alef/v21/FeVQS0NQpLYglo50L5la2bxii28.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
